@@ -106,6 +106,73 @@ body {
     padding-left: 20px;
   }
 
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom right, #f8f9fb, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+  }
+  
+  .hero-text h2 {
+    color: #2a2a8f;
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  
+  .hero-text .cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2a2a8f;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-text .cta-button:hover {
+    background-color: #4444aa;
+  }
+  
+  .hero-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    min-width: 250px;
+  }
+  
+  .hero-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Nav active state */
+  nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  
   
   
   
