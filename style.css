@@ -284,6 +284,44 @@ body {
     line-height: 1.6;
   }
 
+  /* HEADER */
+header {
+    background-color: #2a2a8f;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* NAV LINKS IN HEADER */
+  nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: #e0e0ff;
+    text-decoration: underline;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #2a2a8f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  
   
   
   
