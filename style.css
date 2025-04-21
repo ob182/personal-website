@@ -221,6 +221,42 @@ body {
     border-bottom: 2px solid #2a2a8f;
   }
 
+  .project-section h2 {
+    color: #2a2a8f;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    color: #2a2a8f;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+
   
   
 
