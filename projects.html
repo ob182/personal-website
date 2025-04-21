@@ -4,30 +4,52 @@
   <meta charset="UTF-8">
   <title>Projects | Oumayma</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>My Projects</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-      </nav>      
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
   <main>
-    <h2>Featured Work</h2>
-    <ol>
-      <li><a href="#">P10 Brand Strategy</a> – Brand tracking across multiple investment strategies</li>
-      <li><a href="#">Blockchain for Biochar</a> – Transparent sustainability certification</li>
-      <li><a href="#">Rebrand for University</a> – A university rebrand to refresh its identity and align with its values, excellence, and future vision</li>
-    </ol>
+    <div class="container">
+      <section class="project-section">
+        <h2><i class="fas fa-folder-open"></i> Featured Work</h2>
+
+        <div class="project-card">
+          <h3>P10 Brand Strategy</h3>
+          <p>Led brand awareness tracking for a leading alternative asset manager using sentiment analysis and digital presence benchmarking.</p>
+          <a href="#" class="project-link">View Details</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Blockchain for Biochar</h3>
+          <p>Developed a go-to-market plan and technical roadmap for a blockchain-enabled sustainability certification model in Morocco and beyond.</p>
+          <a href="#" class="project-link">View Details</a>
+        </div>
+
+        <div class="project-card">
+          <h3>University Rebrand</h3>
+          <p>Guided a major university rebrand by aligning institutional identity with values and future vision, with strategy, positioning, and messaging support.</p>
+          <a href="#" class="project-link">View Details</a>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <p>Please contact me at <a href="mailto:oumayma.benyoussef01@email.com">oumayma.benyoussef01@email.com</a></p>
+    <p>Get in touch: <a href="mailto:oumayma.benyoussef01@email.com">oumayma.benyoussef01@email.com</a></p>
   </footer>
 </body>
 </html>
