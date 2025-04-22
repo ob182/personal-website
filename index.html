@@ -54,19 +54,23 @@
 
   <!-- 🎞️ JavaScript for Testimonial Carousel -->
   <script>
-    const testimonials = document.querySelectorAll("#testimonials blockquote");
-    let i = 0;
+    document.addEventListener("DOMContentLoaded", function () {
+      const testimonials = document.querySelectorAll("#testimonials blockquote");
+      let i = 0;
 
-    function showNextTestimonial() {
-      testimonials[i].classList.remove("active");
-      i = (i + 1) % testimonials.length;
-      testimonials[i].classList.add("active");
-    }
+      function showNextTestimonial() {
+        testimonials[i].classList.remove("active");
+        i = (i + 1) % testimonials.length;
+        testimonials[i].classList.add("active");
+      }
 
-    setInterval(showNextTestimonial, 6000);
+      testimonials[i].classList.add("active"); // ensure first is visible
+      setInterval(showNextTestimonial, 6000);
+    });
   </script>
 </body>
 </html>
+
 
 
 
