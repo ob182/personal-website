@@ -299,4 +299,35 @@ body {
     }
   }
 
+  #testimonials {
+    margin-top: 40px;
+  }
+  
+  #testimonials h2 {
+    color: #2a2a8f;
+    margin-bottom: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #testimonials blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #444;
+    padding: 20px;
+    display: none;
+    opacity: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  #testimonials blockquote.active {
+    display: block;
+    opacity: 1;
+  }
+
   

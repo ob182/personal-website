@@ -38,13 +38,36 @@
         <img src="myphoto.jpg" alt="Oumayma smiling">
       </div>
     </section>
+
+    <!-- ✨ Testimonials Section -->
+    <section id="testimonials" class="section-card" style="text-align: center; margin-top: 40px;">
+      <h2><i class="fas fa-comments"></i> What Others Say</h2>
+      <blockquote class="testimonial active">“Oumayma brings strategic clarity to every project she touches. Her insights were game-changing.” – Former Client</blockquote>
+      <blockquote class="testimonial">“Working with Oumayma is a masterclass in creativity, professionalism, and empathy.” – Teammate</blockquote>
+      <blockquote class="testimonial">“She led our team through a complete brand refresh and made it feel effortless.” – Collaborator</blockquote>
+    </section>
   </main>
 
   <footer>
     <p>© 2025 Oumayma Benyoussef</p>
   </footer>
+
+  <!-- 🎞️ JavaScript for Testimonial Carousel -->
+  <script>
+    const testimonials = document.querySelectorAll("#testimonials blockquote");
+    let i = 0;
+
+    function showNextTestimonial() {
+      testimonials[i].classList.remove("active");
+      i = (i + 1) % testimonials.length;
+      testimonials[i].classList.add("active");
+    }
+
+    setInterval(showNextTestimonial, 6000);
+  </script>
 </body>
 </html>
+
 
 
 
